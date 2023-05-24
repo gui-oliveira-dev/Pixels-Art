@@ -1,0 +1,99 @@
+/* Título */
+
+#title {
+  font-family: VT323;
+  font-size: 50px;
+  color: rgb(250, 216, 67);
+}
+
+
+/* Paleta de cores */
+
+#color-palette {
+height: 1px;
+display:flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 5px;
+max-width: 300px;
+
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Botão de cores aleatórias */
+
+#button-random-color {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(37, 136, 248);
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-family: VT323;
+  padding: 3px 10px;
+  border: 2px solid rgb(0, 30, 65);
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+/* botão de limpar o quadro */
+
+#clear-board {
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 22px;
+  font-family: VT323;
+  background-color: rgb(253, 88, 88);
+  border: 2px solid rgb(71, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 3px 30px;
+  border-radius: 5px;
+}
+
+/* Quadro de pixels */
+
+#pixel-board {
+  display: flex;
+  width: 240px;
+  height: 240px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.pixel {
+  display: flex;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+
+
+
+/* Botão selecionado */
+
+.selected{
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow:2px 2px 5px black ;
+
+}
+
+body {
+  background-image: url(https://i.redd.it/yu1vchtpsdi61.jpg);
+  background-position: auto;
+  background-size: 100%;
+}
